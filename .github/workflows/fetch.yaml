@@ -58,8 +58,3 @@ jobs:
          # github_token: ${{ secrets.TOKEN }}
          branch: main
 
-    -name: 推送至Gist
-      run: |
-        GIST_ID="krulikresenzb/f228253a1fd5394e89d1da6f5376fd8b"
-        FILE_NAME="cellectsub.txt"  # 输出文件名
-        GIST_TOKEN="${{ secrets.GIST_TOKEN }}"  # 在GitHub Secrets中存储你的Gist Token
